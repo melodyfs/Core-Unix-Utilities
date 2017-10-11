@@ -33,11 +33,17 @@ ur working directory
 ### Variables
 
 1.  Print a sentence, like `Hello world`
+    - 'echo 'Hello world''
 1.  Print a variable value, like `$USER` or `$PATH`
+    - 'printf $USER'
 1.  Set a variable `NAME` equal to your first name, then print its value
+    - `NAME='MELODY'; echo $NAME`
 1.  Set a variable `FULL_NAME` equal to your full name, then print its value
+    - 'FULL_NAME='MELODY YANG'; echo $FULL_NAME'
 1.  Print all environment variables (names and values)
+    - set
 1.  Make an alias named `hello` that prints `Hello world`
+    - `alias=Hello`
 1.  Make an alias named `gocode` that navigates to your code directory
 1.  Print all aliases (names and values)
 
